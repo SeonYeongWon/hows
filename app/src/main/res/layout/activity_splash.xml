@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context=".SplashActivity"
+>
+
+    <ImageView
+        android:id="@+id/fullscreen_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:background="@drawable/main"
+        android:adjustViewBounds="true"
+        android:contentDescription=""
+        tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp" />
+
+
+</FrameLayout>

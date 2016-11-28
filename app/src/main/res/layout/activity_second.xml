@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 주제 나오는 화면 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    android:weightSum="1"
+    tools:ignore="ExtraText">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="427dp"
+        android:background="@drawable/main_2"
+        tools:ignore="ContentDescription"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="100dp"
+
+        android:id="@+id/button"
+        android:background="@drawable/button1"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="123dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    -->
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.hs.emirim.dnj1981.testmemo1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        >
+
+        <activity android:name="kr.hs.emirim.dnj1981.testmemo1.SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            >
+
+            <intent-filter>zz
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="kr.hs.emirim.dnj1981.testmemo1.ListActivity" ></activity>
+
+        <activity android:name="kr.hs.emirim.dnj1981.testmemo1.SecondActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name="kr.hs.emirim.dnj1981.testmemo1.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+
+    </application>
+
+</manifest>

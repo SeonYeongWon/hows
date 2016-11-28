@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/view_content" android:title="내용 보기 및 편집"></item>
+    <item android:id="@+id/remove_content" android:title="삭제"></item>
+    
+
+</menu>

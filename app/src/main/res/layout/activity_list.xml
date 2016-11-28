@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context=".ListActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#553e80" >
+
+        <Button
+            android:id="@+id/newMemoBtn"
+            android:layout_width="150dp"
+            android:layout_height="53dp"
+            android:background="@drawable/new_2"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_gravity="right"
+            tools:ignore="RtlHardcoded" />
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bc"
+        android:textColor="#ffffff"
+        android:textFilterEnabled="false" />
+
+</LinearLayout>

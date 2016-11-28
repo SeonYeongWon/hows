@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">오늘 어때</string>
+    <string name="action_settings">Settings</string>
+    <string name="memo_title">오늘 어때</string>
+    <string name="submit_title">생각 쓰기</string>
+    <string name="reset_title">새로 작성</string>
+    <string name="list_date_title">날짜</string>
+    <string name="list_time_title">시간</string>
+    <string name="list_title">내용 요약</string>
+    <string name="listview_title">모아보기</string>
+    <string name="title_activity_list">생각 리스트</string>
+    <string name="context_menu_title">더보기</string>
+    <string name="new_memo">생각 작성</string>
+</resources>
